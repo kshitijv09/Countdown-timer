@@ -1,0 +1,62 @@
+body{
+	background: hsl(210, 36%, 96%);
+}
+.heading{
+	margin-top: 5rem;
+	margin-left: 35rem;
+	color: goldenrod;
+}
+.gift-img{
+	padding-top: 5rem;
+	margin-left: 3rem;
+}
+#phone{
+	border-radius: 100%;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.gift-info{
+	padding-top: 5rem;
+}
+h2{
+	padding-top: 2rem;
+	padding-left: 2rem;
+}
+#text{
+	color:hsl(210, 22%, 49%); 
+}
+#link:hover{
+	color: #9900ff;
+	transform: scale(1.1);
+}
+#link{
+	transition: transfrom .2s;
+}
+/*.time{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}*/
+.time{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 28rem;
+	margin-right: 28rem;
+	font-size: 2rem;
+}
+#day, #hour, #min, #sec{
+    border-top: 2rem;
+	border-right: 2rem;
+	padding-left: 1rem;
+}
+.base{
+	color: brown;
+}
+#days, #hours,#minutes,#seconds{
+	color: #ff9966;
+}
+
